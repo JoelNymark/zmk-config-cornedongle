@@ -1,0 +1,14 @@
+/ {
+    chosen {
+        zmk,ble-central = &bluetooth;
+        zmk,usb = &usb;
+    };
+};
+
+&bluetooth {
+    status = "okay";
+};
+
+&usb {
+    status = "okay";
+};

@@ -1,0 +1,10 @@
+if shield_cornedongle
+
+config ZMK_KEYBOARD_NAME
+    default "Dongle"
+
+CONFIG_ZMK_BLE_CENTRAL=y
+CONFIG_ZMK_USB=y
+
+
+endif
