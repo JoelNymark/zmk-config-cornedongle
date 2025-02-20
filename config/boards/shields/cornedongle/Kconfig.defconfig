@@ -1,4 +1,4 @@
-if shield_cornedongle
+if shield_corne_dongle
 
 config ZMK_KEYBOARD_NAME
     default "Dongle"
